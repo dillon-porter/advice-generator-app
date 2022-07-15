@@ -2,6 +2,9 @@
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
+- [Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+- [Solution](https://dillon-porter.github.io/advice-generator-app/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
