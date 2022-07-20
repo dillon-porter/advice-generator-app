@@ -8,7 +8,7 @@ window.onload = () => {
 }
 
 async function getAdvice() {
-    const advicePromise = await fetch('https://api.adviceslip.com/advice')
+    const advicePromise = await fetch('https://api.adviceslip.com/advice', {cache: "no-cache"})
     const advice = await advicePromise.json()
     adviceText.textContent = `${advice.slip.advice}`
     adviceNumber.textContent = `${advice.slip.id}`
